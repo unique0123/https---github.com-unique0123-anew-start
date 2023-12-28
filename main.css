@@ -1001,10 +1001,12 @@ div img:hover {
     font-size: 16px;
   }
   .container-2 {
+    max-width: 450px;
     justify-content: space-around;
     align-items: center;
   }
   .container-1 {
+    max-width: 470px;
     margin: 0;
     padding-left: 20px;
   }
@@ -1040,7 +1042,7 @@ div img:hover {
     padding: 0;
   }
   #content  {
-    max-width: 500px;
+    max-width: 420px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -1065,6 +1067,11 @@ div img:hover {
   }
   .locate-us {
     margin-bottom: -20px;
+  }
+
+  .container-fluid {
+    width: 100%;
+  
   }
 
 
@@ -1108,6 +1115,7 @@ div img:hover {
 
 
   .we-tailor {
+    font-size: 14px;
     padding: 0;
     margin: 5px;
     margin-top: 10px;
@@ -1234,7 +1242,252 @@ div img:hover {
 
     /* MEDIUM DEVICES/LANSCAPE TABLETS */
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 719px) {
+  .container-footer {
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    display: grid;
+    margin: 0;
+       
+          
+  }
+  footer {
+    font-size: 16px;
+  }
+  .container-2 {
+    max-width: 450px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .container-1 {
+    max-width: 470px;
+    margin: 0;
+    padding-left: 20px;
+  }
+  .social-media h4 {
+    font-size: 16px;
+    padding-left: 32%;
+    margin: 0;
+  }
+  .locate-us h3 {
+    font-size: 16px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 32%;
+    padding-left: 51px;
+
+    
+    /* margin-right: 60px; */
+  }
+  .location {
+    font-size: 16px;
+    align-items: center;
+    padding: 0;
+    padding-left: 23%;
+  }
+  .newsletter-main {
+    justify-content: center;
+    align-items: center;
+  }
+  .newsletter {
+    font-size: 16px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 0;
+  }
+  #content  {
+    max-width: 420px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      text-align: center;
+      font-size: 16px;
+      margin-top: -170px;
+    
+  }
+  .all-socials {
+    padding-left: -60px;
+  }
+  .stay-up-to-date p {
+    font-size: 16px;
+  }
+  .social-media {
+    font-size: 16px;
+    color: white;
+  }
+  .container-footer img {
+    margin-left: 32%;
+    margin-bottom: -80px;
+  }
+  .locate-us {
+    margin-bottom: -20px;
+  }
+
+  .container-fluid {
+    width: 100%;
+  
+  }
+
+
+  .discounted-prices {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    /* padding-right: 125px; */
+    padding-left: 76px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    border-top: solid;
+    border-bottom: solid;
+  }
+
+  .discounted-prices button {
+    font-weight: bold;
+    margin-left: 78px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: #111;
+    color: white;
+  }
+
+  figcaption  h5 {
+    margin-left: 59px;
+    font-weight: bold;
+  }
+
+ 
+
+  .our-brand {
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: #111;
+    color: white;
+    border: solid 1px white;
+    cursor: pointer;
+  }
+
+
+  .we-tailor {
+    font-size: 14px;
+    padding: 0;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 27px;
+    border-bottom: solid;
+    cursor: pointer;
+    
+  }
+
+  button,button::after {
+    padding: 10px 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    position: relative;
+  }
+   figcaption h3 a{
+    color: white;
+    font-size: 18px;
+  }
+  
+  button::after {
+    --move1: inset(50% 50% 50% 50%);
+    --move2: inset(31% 0 40% 0);
+    --move3: inset(39% 0 15% 0);
+    --move4: inset(45% 0 40% 0);
+    --move5: inset(45% 0 6% 0);
+    --move6: inset(14% 0 61% 0);
+    clip-path: var(--move1);
+    content: 'TAILOR';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+  }
+  
+  button:hover::after {
+    animation: glitch_4011 1s;
+    text-shadow: 10 10px 10px black;
+    animation-timing-function: steps(2, end);
+    text-shadow: -3px -3px 0px #1df2f0, 3px 3px 0px #E94BE8;
+    background-color: transparent;
+    border: 3px solid rgb(0, 255, 213);
+  }
+  
+  button:hover {
+    text-shadow: -1px -1px 0px #1df2f0, 1px 1px 0px #E94BE8;
+  }
+  
+  button:hover {
+    background-color: transparent;
+    border: 1px solid rgb(0, 255, 213);
+    box-shadow: 0px 10px 10px -10px rgb(0, 255, 213);
+  }
+  
+  @keyframes glitch_4011 {
+    0% {
+      clip-path: var(--move1);
+      transform: translate(0px,-10px);
+    }
+  
+    10% {
+      clip-path: var(--move2);
+      transform: translate(-10px,10px);
+    }
+  
+    20% {
+      clip-path: var(--move3);
+      transform: translate(10px,0px);
+    }
+  
+    30% {
+      clip-path: var(--move4);
+      transform: translate(-10px,10px);
+    }
+  
+    40% {
+      clip-path: var(--move5);
+      transform: translate(10px,-10px);
+    }
+  
+    50% {
+      clip-path: var(--move6);
+      transform: translate(-10px,10px);
+    }
+  
+    60% {
+      clip-path: var(--move1);
+      transform: translate(10px,-10px);
+    }
+  
+    70% {
+      clip-path: var(--move3);
+      transform: translate(-10px,10px);
+    }
+  
+    80% {
+      clip-path: var(--move2);
+      transform: translate(10px,-10px);
+    }
+  
+    90% {
+      clip-path: var(--move4);
+      transform: translate(-10px,10px);
+    }
+  
+    100% {
+      clip-path: var(--move1);
+      transform: translate(0);
+    }
+  }
 
 }
 /* END OF MEDIUM DEVICES */
